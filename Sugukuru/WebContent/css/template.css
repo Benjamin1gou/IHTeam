@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/*ここからbootstrapの修正*/
+nav.navbar.navbar-default{
+	margin-bottom: 0;
+}
+div.navbar-header{
+	width: 15%;
+}
+div.container-fluid{
+	padding-left: 0;
+}
+div.navbar-header{
+	padding-left: 15px;
+}
+/* ここまでがbootstrapの修正 */
+/*左メニューの設定*/
+.left-menu{
+	width: 15%;
+	height: 850px;
+	border: 1px solid #e7e7e7;
+	background-color: #f8f8f8;
+	float: left;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+div.left-menu .accordion-group{
+
+}
+/* メインの基本設定 */
+.center-content {
+	width: 85%;
+	height: 100%;
+	margin-left: 15%;
+	padding: 5px;
+}
+.center-content .center-content-header{
+	width: 100%;
+	height: 100px;
+	margin: 5px;
+}
+.center-content .center-content-header .center-content-title{
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+.center-content .center-content-header .center-content-title h2{
+	width: 150px;
+}
+/*ページング*/
+.center-content-title .text-page{
+	font-size: 15px;
+}
+.center-content-title .content-paging{
+
+}
+.texter{
+	font-size: 13px;
+	margin: 0 2px;
+	float: left;
+}
+.text-pager{
+	width: 100px;
+	height: 10px;
+}
+.content-paging,.text-pager{
+	list-style: none;
+}
+.center-content-header .content{
+	width: 83%;
+	height: 50%;
+	padding: 5px;
+	margin-left: 160px;
+}
+/*メッセージボックス*/
+.center-content-header .content-message{
+	border: 1px groove #e7e7e7;
+}
+/*検索フォーム*/
+.center-content-header .content-search{
+	margin-top: 1px;
+	border-bottom: 1px dotted #e7e7e7;
+}
+.container{
+	width: 100%;
+}
+
+.price{
+	text-align: right;
+}
+table th{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #e7e7e7;
+}
+.table{
+	margin-top: 10px;
+}
+table td{
+	text-align: center;
+	font-weight: normal;
+	background-color: #ffffff;
+}
+.table-header{
+	font-size: 20px;
+	text-align: center;
+	background-color: #ffffff;
+}
+.center{
+	text-align: center;
+}
+.table-up{
+	width: 100%;
+	height: 45%;
+	float: left;
+}
+.table-middle{
+	width: 10%;
+	height: 100%;
+	text-align: center;
+}
+.table-under{
+	width: 100&;
+	height: 45%;
+}
+.width-100{
+	width: 100px;
+}
+.button{
+	float: right;
+	margin: 10px;
+}
+.cancel-btn{
+	float: left;
+	margin-right: 20px;
+}
+.success-btn{
+	float: left;
+}
+.btn-place{
+	width: 100%;
+}
+.div-scroll {
+	height: 450px;
+	overflow: auto;
+	position: relative;
+	top: 27px;
+}
+input.class2.form-control{
+  height: 22px;
+  font-size: 8px;
+  width: 35px;
+}
+input.class3.form-control{
+  height: 22px;
+  font-size: 8px;
+  width: 50px;
+}
+input.class1.form-control{
+  height: 22px;
+  font-size: 8px;
+}
+
+button.btn.btn-default{
+  padding: 3px 10px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.print {
+  float: right;
+}
+

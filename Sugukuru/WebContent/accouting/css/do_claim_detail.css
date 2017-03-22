@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+ body{
+ 	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "MS P明朝", "MS PMincho", "MS 明朝", serif;
+ }
+ table *{
+ 	border-color: black;
+ }
+ .title{
+ 	font-size: 1.3em;
+ }
+.print_button{
+	width:100%;
+	position: absolute;
+	bottom: 10;
+	text-align: center;
+	z-index: 100;
+}
+.print_button input[type="button"]{
+	width: 400px;
+}
+section table{
+	page-break-after: always;
+}
+/* .sett section:last-child{
+	page-break-after: auto;
+} */
+@page{ size: landscape;}

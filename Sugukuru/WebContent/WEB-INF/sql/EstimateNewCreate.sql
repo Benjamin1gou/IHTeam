@@ -1,0 +1,31 @@
+INSERT INTO `estimates_table` (
+	`estimates_id`,				/* 見積ID */
+	`customer_id`,				/* 顧客ID */
+	`recovery_process`,			/* 回収方法 */
+	`expiration_date`,			/* 有効期限 */
+	`employment_id`,			/* 見積作成社員ID */
+	`create_date`,				/* 作成日 */
+	`postage`,					/* 送料 */
+	`no_tax_total_fee`,			/* 税抜合計金額 */
+	`tax_fee`,					/* 消費税 */
+	`total_fee`,				/* 合計金額 */
+	`approvaled_employment_id`,	/* 承認社員ID */
+	`approvaled_customer_id`,	/* 承認顧客ID */
+	`approvaled_date`,			/* 承認日 */
+	`note`						/* 備考 */
+) VALUES (
+	NULL,						/* 見積ID */
+	CUSTOMER_ID,				/* 顧客ID */
+	RECOVERY_PROCESS,			/* 回収方法 */
+	EXPRATION_DATE,				/* 有効期限 */
+	EMPLOYMENT_ID,				/* 見積作成社員ID */
+	CREATE_DATE,				/* 作成日 */
+	POSTAGE,					/* 送料 */
+	'0',						/* 税抜合計金額 */
+	'0',						/* 消費税 */
+	'0',						/* 合計金額 */
+	NULL,						/* 承認社員ID */
+	NULL,						/* 承認顧客ID */
+	NULL,						/* 承認日 */
+	NOTE						/* 備考 */
+);

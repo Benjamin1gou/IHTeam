@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/clShape"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/simple_border"/>
+
+    <TextView
+        android:id="@+id/clProductNumber"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/clProductName"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/clRackNumber"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/clNeeds"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/clPicking"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/clInspected"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/clState"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:background="@drawable/simple_border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">倉庫部</string>
+    <string name="tv_title_picking">ピッキングリスト</string>
+    <string name="tv_title_order">小分状況</string>
+    <string name="tv_title_order_detail">小分詳細</string>
+    <string name="tv_item_name">項目名</string>
+    <string name="tv_item_num">個数</string>
+    <string name="tv_change">個数変更</string>
+    <string name="bt_show">個別表示</string>
+    <string name="bt_show2">全体表示</string>
+    <string name="ch_incomplete">未完了のみ</string>
+    <string name="ch_flg">フラグ付のみ</string>
+    <string name="tv_flg">フラグ</string>
+    <string name="tv_note">備考</string>
+
+    <string name="lv_shape">＃</string>
+    <string name="lv_product_number">商品番号</string>
+    <string name="lv_product_name">商品名</string>
+    <string name="lv_rack_number">棚名</string>
+    <string name="lv_needs">必要数</string>
+    <string name="lv_picking">ピッキング数</string>
+    <string name="lv_inspected">検品数</string>
+    <string name="lv_stock">在庫数</string>
+    <string name="lv_state">状態</string>
+
+    <string name="state_no_touch">未着手</string>
+    <string name="state_picked">ピッキング済み</string>
+    <string name="state_inspect">検品済み</string>
+    <string name="state_package">小分け済み</string>
+
+    <string-array name="arr_picking">
+        <item>全件</item>
+        <item>ピッキング済</item>
+        <item>検品済</item>
+        <item>未作業</item>
+    </string-array>
+
+    <string-array name="arr_mode">
+        <item>ピッキング</item>
+        <item>検品</item>
+    </string-array>
+    
+    <!--出荷一覧リスト-->
+    <string name="lv_orderId">受注ID</string>
+    <string name="lv_customer_name">顧客名</string>
+    <string name="lv_customer_name_kan">顧客名（カナ）</string>
+    <string name="lv_order_time">受注日時</string>
+    <string name="lv_completed">完了状態</string>
+    <string name="com_yes">完了</string>
+    <string name="com_no">未完了</string>
+    <string-array name="arr_order">
+        <item>全件</item>
+        <item>出荷準備完了</item>
+        <item>未完了</item>
+    </string-array>
+    
+    <!--出荷詳細リスト-->
+    <string name="lv_amount">数量</string>
+    <string name="lv_step">作業ステップ</string>
+    <string-array name="arr_order_detail">
+        <item>全件</item>
+        <item>未作業</item>
+        <item>ピッキング済</item>
+        <item>検品済</item>
+        <item>小分済</item>
+    </string-array>
+</resources>

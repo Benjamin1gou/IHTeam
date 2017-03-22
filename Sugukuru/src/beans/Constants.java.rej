@@ -1,0 +1,9 @@
+diff a/Sugukuru/src/beans/Constants.java b/Sugukuru/src/beans/Constants.java	(rejected hunks)
+@@ -31,6 +31,7 @@
+ 	 *
+ 	 */
+ 	public enum Page{
++<<<<<<< HEAD
+ 		EstimatesNewCreating_jsp("estimates_new_creating.jsp","EstimatesNewCreatingServlet","03"),
+ 		EstimatesNewCreating_ser("EstimatesNewCreatingServlet","estimates_new_creating.jsp","03"),
+ =======
